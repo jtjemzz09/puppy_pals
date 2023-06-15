@@ -13,7 +13,7 @@ function App() {
   }
 
   const featuredPup = puppies.find((pup) => pup.id === featPupId);
-
+  
   return (
     <div className="root">
       {puppies.map((puppy) => {
